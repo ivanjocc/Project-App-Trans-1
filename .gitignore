@@ -5,3 +5,6 @@
 *.user
 *.suo
 *.userprefs
+
+*.mdf
+*.ldf
