@@ -72,6 +72,8 @@
     <Content Include="App_Data\DBFriendBook_log.ldf">
       <DependentUpon>DBFriendBook.mdf</DependentUpon>
     </Content>
+    <Content Include="assets\cursor-active.cur" />
+    <Content Include="assets\cursor.cur" />
     <Content Include="dashboard.aspx" />
     <Content Include="inscription.aspx" />
     <Content Include="login.aspx" />

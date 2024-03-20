@@ -9,6 +9,18 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style type="text/css">
+        body {
+            cursor: url('/assets/cursor.cur'), default;
+        }
+
+        body:active {
+            cursor: url('/assets/cursor-active.cur'), default;
+        }
+
+        input {
+            cursor: url('/assets/cursor.cur'), default;
+        }
+
         .error {
             color: red;
         }
