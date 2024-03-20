@@ -67,6 +67,7 @@ namespace prjWebCsFriendBookIvan
 
             ClearFormFields();
 
+            Response.Redirect("login");
         }
 
         protected void ClearFormFields()

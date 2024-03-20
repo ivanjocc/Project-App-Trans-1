@@ -11,7 +11,7 @@ namespace prjWebCsFriendBookIvan
 {
 
 
-    public partial class loginaspx
+    public partial class login
     {
 
         /// <summary>
