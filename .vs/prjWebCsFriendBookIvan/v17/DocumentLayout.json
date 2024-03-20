@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|c:\\users\\ivanj\\desktop\\aaa\\teccart\\session-4\\at\\prjwebcsfriendbookivan\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|c:\\users\\ivanj\\desktop\\aaa\\teccart\\session-4\\at\\prjwebcsfriendbookivan\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,15 +15,19 @@
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_IVANJ_DESKTOP_AAA_TECCART_SESSION_4_AT_PRJWEBCSFRIENDBOOKIVAN_APP_DATA_DBFRIENDBOOK.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|c:\\users\\ivanj\\desktop\\aaa\\teccart\\session-4\\at\\prjwebcsfriendbookivan\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:inscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_IVANJ_DESKTOP_AAA_TECCART_SESSION_4_AT_PRJWEBCSFRIENDBOOKIVAN_APP_DATA_DBFRIENDBOOK.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,16 +37,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "dashboard.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx.cs",
               "RelativeDocumentMoniker": "dashboard.aspx.cs",
-              "ToolTip": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx.cs*",
-              "RelativeToolTip": "dashboard.aspx.cs*",
+              "ToolTip": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx.cs",
+              "RelativeToolTip": "dashboard.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T22:48:14.474Z",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx.cs",
               "RelativeDocumentMoniker": "login.aspx.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx",
               "RelativeDocumentMoniker": "dashboard.aspx",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "login.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx",
               "RelativeDocumentMoniker": "login.aspx",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "dbo.Users [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_IVANJ_DESKTOP_AAA_TECCART_SESSION_4_AT_PRJWEBCSFRIENDBOOKIVAN_APP_DATA_DBFRIENDBOOK.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Data]",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "inscription.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx",
               "RelativeDocumentMoniker": "inscription.aspx",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "inscription.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx.cs",
               "RelativeDocumentMoniker": "inscription.aspx.cs",
