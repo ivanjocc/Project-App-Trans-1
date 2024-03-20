@@ -15,13 +15,13 @@ namespace prjWebCsFriendBookIvan
     {
 
         /// <summary>
-        /// form1 control.
+        /// formRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formRegister;
 
         /// <summary>
         /// txtUsername control.
@@ -69,22 +69,22 @@ namespace prjWebCsFriendBookIvan
         protected global::System.Web.UI.WebControls.TextBox txtBirthDate;
 
         /// <summary>
-        /// txtEthnicGroup control.
+        /// ddlEthnicGroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEthnicGroup;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEthnicGroup;
 
         /// <summary>
-        /// txtSearchReason control.
+        /// ddlSearchReason control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSearchReason;
+        protected global::System.Web.UI.WebControls.DropDownList ddlSearchReason;
 
         /// <summary>
         /// btnSubmit control.
@@ -94,5 +94,14 @@ namespace prjWebCsFriendBookIvan
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmit;
+
+        /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
     }
 }

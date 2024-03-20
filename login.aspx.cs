@@ -13,5 +13,12 @@ namespace prjWebCsFriendBookIvan
         {
 
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Session["Username"] = txtUsername.Text;
+
+            Response.Redirect("dashboard.aspx");
+        }
     }
 }
