@@ -26,6 +26,7 @@
             <asp:Button ID="btnSend" runat="server" Text="Enviar" OnClick="btnSend_Click" /><br />
             <asp:Label ID="lblMessage" runat="server" CssClass="error" />
         </div>
+        <a href="dashboard.aspx">Return to Dashboard</a>
     </form>
 </body>
 </html>

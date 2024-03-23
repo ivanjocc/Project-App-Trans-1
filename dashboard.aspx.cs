@@ -18,6 +18,7 @@ namespace prjWebCsFriendBookIvan
                 if (Session["Username"] != null)
                 {
                     lblUsername.Text = "Welcome " + "<strong>" + Session["Username"].ToString() + "</strong>";
+                    LoadMessages(Convert.ToInt32(Session["UserID"]));
                 }
                 else
                 {
@@ -86,5 +87,32 @@ namespace prjWebCsFriendBookIvan
                 gvMembers.DataBind();
             }
         }
+
+        private void LoadMessages(int userID)
+        {
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\App_Data\\DBFriendBook.mdf;Integrated Security=True";
+            using (SqlConnection myconn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    myconn.Open();
+                    string query = "SELECT u.Username as FromUsername, m.Content, m.SendDate FROM Messages m INNER JOIN Users u ON m.FromUserID = u.UserID WHERE ToUserID = @ToUserID ORDER BY m.SendDate DESC";
+                    SqlCommand cmd = new SqlCommand(query, myconn);
+                    cmd.Parameters.AddWithValue("@ToUserID", userID);
+
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    gvMessages.DataSource = dt;
+                    gvMessages.DataBind();
+                }
+                catch (Exception ex)
+                {
+                    //pendiente
+                }
+            }
+        }
+
     }
 }

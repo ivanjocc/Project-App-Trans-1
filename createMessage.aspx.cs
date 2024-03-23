@@ -58,6 +58,8 @@ namespace prjWebCsFriendBookIvan
 
                         cmd.ExecuteNonQuery();
 
+                        txtContent.Text = "";
+
                         lblMessage.Text = "Mensaje enviado con éxito.";
                     }
                 }

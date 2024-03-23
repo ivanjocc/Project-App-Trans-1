@@ -39,6 +39,16 @@
             <asp:Button ID="btnFilter" runat="server" Text="Filtrar" OnClick="btnFilter_Click" />
         </div>
         <div>
+            <asp:Label ID="lblMessages" runat="server" Text="Mensajes Recibidos:" Font-Bold="true"></asp:Label>
+            <asp:GridView ID="gvMessages" runat="server" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="FromUsername" HeaderText="De" />
+                    <asp:BoundField DataField="Content" HeaderText="Mensaje" />
+                    <asp:BoundField DataField="SendDate" HeaderText="Fecha de Envío" DataFormatString="{0:dd/MM/yyyy HH:mm}" />
+                </Columns>
+            </asp:GridView>
+        </div>
+        <div>
             <asp:GridView ID="gvMembers" runat="server" AutoGenerateColumns="False">
                 <Columns>
                     <asp:BoundField DataField="UserID" HeaderText="UserID" Visible="false" />
