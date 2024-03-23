@@ -23,6 +23,7 @@
 
         .error {
             color: red;
+            font-weight: bold;
         }
     </style>
 </head>

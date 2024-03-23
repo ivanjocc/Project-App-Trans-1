@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,9 +17,40 @@ namespace prjWebCsFriendBookIvan
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            Session["Username"] = txtUsername.Text;
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text;
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\App_Data\\DBFriendBook.mdf;Integrated Security=True";
 
-            Response.Redirect("dashboard.aspx");
+            using (SqlConnection myconn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    myconn.Open();
+                    string query = "SELECT UserID, Username FROM Users WHERE Username = @username AND Password = @password";
+                    SqlCommand cmd = new SqlCommand(query, myconn);
+                    cmd.Parameters.AddWithValue("@username", username);
+                    cmd.Parameters.AddWithValue("@password", password);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            Session["UserID"] = reader.GetInt32(0);
+                            Session["Username"] = reader.GetString(1);
+                            Response.Redirect("dashboard.aspx");
+                        }
+                        else
+                        {
+                            lblError.Text = "El usuario o la contraseña no son correctos. Por favor, intenta de nuevo.";
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    lblError.Text = "Ocurrió un error durante el proceso de login. Por favor, intenta más tarde.";
+                }
+            }
         }
+
     }
 }
