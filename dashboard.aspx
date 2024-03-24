@@ -11,6 +11,11 @@
         <div>
             <asp:Label ID="lblUsername" runat="server" Text="Bienvenido"></asp:Label>
         </div>
+
+        <div>
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+        </div>
+
         <div>
             Sexo:
             <asp:DropDownList ID="ddlSex" runat="server">
@@ -45,10 +50,17 @@
                     <asp:BoundField DataField="FromUsername" HeaderText="De" />
                     <asp:BoundField DataField="Content" HeaderText="Mensaje" />
                     <asp:BoundField DataField="SendDate" HeaderText="Fecha de Envío" DataFormatString="{0:dd/MM/yyyy HH:mm}" />
+                    <asp:TemplateField HeaderText="Responder">
+                        <ItemTemplate>
+                            <asp:HyperLink ID="hlReply" runat="server" NavigateUrl='<%# "createMessage.aspx?ToUserID=" + Eval("FromUserID") %>' Text="Responder"></asp:HyperLink>
+                        </ItemTemplate>
+                    </asp:TemplateField>
                 </Columns>
             </asp:GridView>
+
         </div>
         <div>
+            <asp:Label ID="lblResult" runat="server" Text="Search result:" Font-Bold="true"></asp:Label>
             <asp:GridView ID="gvMembers" runat="server" AutoGenerateColumns="False">
                 <Columns>
                     <asp:BoundField DataField="UserID" HeaderText="UserID" Visible="false" />

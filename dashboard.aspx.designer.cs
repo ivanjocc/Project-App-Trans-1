@@ -33,6 +33,15 @@ namespace prjWebCsFriendBookIvan
         protected global::System.Web.UI.WebControls.Label lblUsername;
 
         /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
+
+        /// <summary>
         /// ddlSex control.
         /// </summary>
         /// <remarks>
@@ -94,6 +103,15 @@ namespace prjWebCsFriendBookIvan
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvMessages;
+
+        /// <summary>
+        /// lblResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResult;
 
         /// <summary>
         /// gvMembers control.

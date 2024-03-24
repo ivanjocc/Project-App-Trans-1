@@ -96,7 +96,7 @@ namespace prjWebCsFriendBookIvan
                 try
                 {
                     myconn.Open();
-                    string query = "SELECT u.Username as FromUsername, m.Content, m.SendDate FROM Messages m INNER JOIN Users u ON m.FromUserID = u.UserID WHERE ToUserID = @ToUserID ORDER BY m.SendDate DESC";
+                    string query = "SELECT u.UserID as FromUserID, u.Username as FromUsername, m.Content, m.SendDate FROM Messages m INNER JOIN Users u ON m.FromUserID = u.UserID WHERE ToUserID = @ToUserID ORDER BY m.SendDate DESC";
                     SqlCommand cmd = new SqlCommand(query, myconn);
                     cmd.Parameters.AddWithValue("@ToUserID", userID);
 
@@ -114,5 +114,12 @@ namespace prjWebCsFriendBookIvan
             }
         }
 
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+
+            Response.Redirect("login.aspx");
+        }
     }
 }
