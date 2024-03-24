@@ -19,14 +19,14 @@ namespace prjWebCsFriendBookIvan
                     int toUserID;
                     if (int.TryParse(Request.QueryString["ToUserID"], out toUserID))
                     {
-                        lblToUserID.Text = "ID del Destinatario: " + toUserID.ToString();
+                        lblToUserID.Text = "Recipient ID: " + toUserID.ToString();
 
                         txtToUserID.Text = toUserID.ToString();
                         txtToUserID.Visible = false;
                     }
                     else
                     {
-                        lblToUserID.Text = "ID del Destinatario: No válido";
+                        lblToUserID.Text = "Recipient ID: Invalid";
                     }
                 }
             }
@@ -60,12 +60,12 @@ namespace prjWebCsFriendBookIvan
 
                         txtContent.Text = "";
 
-                        lblMessage.Text = "Mensaje enviado con éxito.";
+                        lblMessage.Text = "Message sent succesfully.";
                     }
                 }
                 catch (Exception ex)
                 {
-                    lblMessage.Text = "Ocurrió un error al enviar el mensaje: " + ex.Message;
+                    lblMessage.Text = "An error occurred while sending the message";
                 }
             }
         }

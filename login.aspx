@@ -67,6 +67,7 @@
         a {
             text-decoration: none;
             color: #007bff;
+            font-weight: bold;
         }
 
         a:hover {

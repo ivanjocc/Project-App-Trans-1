@@ -100,8 +100,6 @@ namespace prjWebCsFriendBookIvan
                 //Close connexion
                 myconn.Close();
 
-                Response.Write("todo bien");
-
                 ClearFormFields();
 
                 Response.Redirect("login.aspx");

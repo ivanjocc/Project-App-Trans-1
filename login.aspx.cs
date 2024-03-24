@@ -41,13 +41,13 @@ namespace prjWebCsFriendBookIvan
                         }
                         else
                         {
-                            lblError.Text = "El usuario o la contraseña no son correctos. Por favor, intenta de nuevo.";
+                            lblError.Text = "The username or password is not correct. Please try again.";
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    lblError.Text = "Ocurrió un error durante el proceso de login. Por favor, intenta más tarde.";
+                    lblError.Text = "An error occurred during the login process. Please try again later.";
                 }
             }
         }

@@ -10,6 +10,75 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style type="text/css">
         body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe0b2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form#formRegister {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            width: 400px;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        label, a {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="text"], input[type="password"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .button, input[type="submit"] {
+            background-color: #ff7043;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover, input[type="submit"]:hover {
+            background-color: #f4511e;
+        }
+
+        .error {
+            color: #d32f2f;
+            font-weight: bold;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        body {
             cursor: url('/assets/cursor.cur'), default;
         }
 
@@ -19,11 +88,6 @@
 
         input {
             cursor: url('/assets/cursor.cur'), default;
-        }
-
-        .error {
-            color: red;
-            font-weight: bold;
         }
     </style>
 </head>

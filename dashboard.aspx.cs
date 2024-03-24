@@ -109,7 +109,7 @@ namespace prjWebCsFriendBookIvan
                 }
                 catch (Exception ex)
                 {
-                    //pendiente
+                    //nothing here
                 }
             }
         }
