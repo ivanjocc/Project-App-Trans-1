@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +43,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:inscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8EA016D5-51DD-471A-AC1D-33A63154DB42}|prjWebCsFriendBookIvan.csproj|solutionrelative:inscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,7 +56,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "dbo.Users [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_IVANJ_DESKTOP_AAA_TECCART_SESSION_4_AT_PRJWEBCSFRIENDBOOKIVAN_APP_DATA_DBFRIENDBOOK.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Data]",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "dbo.Messages [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_IVANJ_DESKTOP_AAA_TECCART_SESSION_4_AT_PRJWEBCSFRIENDBOOKIVAN_APP_DATA_DBFRIENDBOOK.MDF/True/SqlTable/dbo.Messages.sql",
               "ToolTip": "dbo.Messages [Data]",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "messages.sql",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\sql\\messages.sql",
               "RelativeDocumentMoniker": "sql\\messages.sql",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "createMessage.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\createMessage.aspx.cs",
               "RelativeDocumentMoniker": "createMessage.aspx.cs",
@@ -93,12 +93,11 @@
               "RelativeToolTip": "createMessage.aspx.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAqwD4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T22:18:15.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T22:18:15.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "createMessage.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\createMessage.aspx",
               "RelativeDocumentMoniker": "createMessage.aspx",
@@ -110,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "inscription.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx",
               "RelativeDocumentMoniker": "inscription.aspx",
@@ -118,11 +117,12 @@
               "RelativeToolTip": "inscription.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-23T16:22:56.502Z"
+              "WhenOpened": "2024-03-23T16:22:56.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "inscription.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\inscription.aspx.cs",
               "RelativeDocumentMoniker": "inscription.aspx.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dashboard.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx.cs",
               "RelativeDocumentMoniker": "dashboard.aspx.cs",
@@ -142,12 +142,11 @@
               "RelativeToolTip": "dashboard.aspx.cs",
               "ViewState": "AQIAAGgAAAAAAAAAAAAiwHwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:48:14.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T22:48:14.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\dashboard.aspx",
               "RelativeDocumentMoniker": "dashboard.aspx",
@@ -155,12 +154,11 @@
               "RelativeToolTip": "dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-20T22:44:56.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T22:44:56.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx.cs",
               "RelativeDocumentMoniker": "login.aspx.cs",
@@ -176,8 +174,8 @@
               "Title": "login.aspx",
               "DocumentMoniker": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx",
               "RelativeDocumentMoniker": "login.aspx",
-              "ToolTip": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx",
-              "RelativeToolTip": "login.aspx",
+              "ToolTip": "C:\\Users\\ivanj\\Desktop\\AAA\\teccart\\session-4\\at\\prjWebCsFriendBookIvan\\login.aspx*",
+              "RelativeToolTip": "login.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-03-20T22:02:34.45Z",
